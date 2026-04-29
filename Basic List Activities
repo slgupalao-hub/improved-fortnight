@@ -1,0 +1,57 @@
+# 1. Create a List
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+
+# 2. Access Items
+print(fruits[0])   # first item
+print(fruits[-1])  # last item
+
+# 3. List Length
+colors = ["red", "blue", "green", "yellow"]
+print(len(colors))
+
+# 4. Change Item
+fruits = ["apple", "banana", "cherry"]
+fruits[1] = "orange"
+print(fruits)
+
+# 5. Add Items
+fruits = ["apple", "banana"]
+fruits.append("mango")
+fruits.insert(1, "grape")
+print(fruits)
+
+# 6. Remove Items
+fruits = ["apple", "banana", "cherry"]
+fruits.remove("banana")
+fruits.pop()
+print(fruits)
+
+# 7. For Loop
+animals = ["dog", "cat", "bird"]
+for animal in animals:
+    print(animal)
+
+# 8. With Index
+numbers = [10, 20, 30]
+for i in range(len(numbers)):
+    print(f"{i}:{numbers[i]}")
+
+# 9. Check if item exists
+fruits = ["apple", "banana", "cherry"]
+if "banana" in fruits:
+    print("Yes, banana is in the list")
+
+# 10. Sorting numbers
+numbers = [15, 2, 9, 1]
+
+numbers.sort()
+print(numbers)  # ascending
+
+numbers.sort(reverse=True)
+print(numbers)  # descending
+
+# 11. Copy List
+list1 = ["a", "b", "c"]
+list2 = list1.copy()
+print(list2)
