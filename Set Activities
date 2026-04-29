@@ -1,0 +1,47 @@
+# =========================
+# SET ACTIVITIES (PYTHON)
+# =========================
+
+# Activity 1: Remove Duplicates
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+unique_numbers = set(numbers)
+print("Unique numbers:", unique_numbers)
+
+
+# Activity 2: Add and Remove Items
+fruits = {"apple", "banana"}
+
+# Add "orange"
+fruits.add("orange")
+
+# Remove "banana"
+fruits.remove("banana")
+
+print("Updated fruits:", fruits)
+
+
+# Activity 3: Set Operations
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+# Union (combine all elements)
+union_result = A.union(B)
+print("Union:", union_result)
+
+# Intersection (common elements)
+intersection_result = A.intersection(B)
+print("Intersection:", intersection_result)
+
+
+# Activity 4: Challenge (Common Students)
+classA = {"John", "Ana", "Mark"}
+classB = {"Ana", "Mark", "Liza"}
+
+# Students in BOTH classes
+both_classes = classA.intersection(classB)
+print("Both classes:", both_classes)
+
+# ALL students
+all_students = classA.union(classB)
+print("All students:", all_students)
